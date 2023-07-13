@@ -1,0 +1,38 @@
+
+HTML >> Hyper Text Markup Language
+
+HTML elements
+ex) <p> Hello World </p> >> paragraph
+
+
+<tag attribute1="value1"> tag attribute value </tag>
+
+ex) 
+
+<p>Hello <strong>World</strong>!</p>
+>> nesting elements
+
+<img src="image.png" alt="profile"/>
+>> void elements
+
+*** tag *** important
+
+
+HTML > head && body
+head : meta data, explanation about website
+body : UI, contents of website
+
+
+
+---------------------
+element VS container
+
+block VS inline
+
+----------
+useful sites for tag
+
+https://developer.mozilla.org/
+https://html.spec.whatwg.org/
+
+--------------------------------------
