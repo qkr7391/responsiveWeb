@@ -1,0 +1,62 @@
+CSS >> styling for website
+
+selector {
+    attribute1 : "value1";
+    attribute2 : "value2";
+}
+
+selector >> tag, class, #id
+
+1. <style> </style>
+
+2. <tag style="value : attribute;"> blah </tag>
+
+3. selector {
+    attribute1 : "value1";
+    attribute2 : "value2";
+  }
+
+
+  CSS >> Cascading Style Sheets 
+  "When more than one styling exists, they are applied in order of priority."
+
+  user > code > browser
+
+  [specific > general]
+ !important >>>>>>>> inline  > #id > .class > tag
+ex))                      #site_header > .title > h1
+!important >> not use general
+
+>> "At the same level, the one written last has priority."
+
+
+
+box-sizing >> https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+border >> https://developer.mozilla.org/en-US/docs/Web/CSS/border
+
+outline >> https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+
+display >> https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+position >> https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+
+background >> https://developer.mozilla.org/en-US/docs/Web/CSS/background
+
+transform >> https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+transition >> https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
+https://cubic-bezier.com/#.17,.67,.83,.67
+
+animation >>  https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+
+
+CSS properties >> https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+
+data >>  https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*
+

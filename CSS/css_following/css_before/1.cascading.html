@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cascading</title>
+  <style>
+    h1 {
+      font-size: 16px;
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+    }
+
+    .special {
+      background-color: purple;
+      color: pink
+    }
+
+    #primary {
+      background-color: black;
+    }
+
+    .special {
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Cascading checking button</h1>
+  <button>tag button</button>
+
+  <br><br><br>
+
+  <!-- There are twp .special in style but the button is accepted by second, because the second one is the last value set -->
+  <button class="special">class button</button>
+  <button class="special">class button</button>
+
+  <br><br><br><br>
+
+  <button class="special" id="primary">class+id button</button>
+  <br><br>
+
+  <!-- the second one is the last value set. -->
+  <button class="special" id="primary" style="background-color: green;">class+id button</button>
+</body>
+
+</html>

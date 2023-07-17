@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Block vs Inline vs Inline-Block</title>
+  <style>
+    p,
+    span {
+      background-color: yellow;
+    }
+
+    p {
+      /* can chang block to inline  
+      fit for content size but can put with other content together in one line*/
+      display: inline;
+    }
+
+    span {
+      /* one in one line but fill full */
+      display: block;
+    }
+
+    .inlineBlock {
+      /* one in one line but fit for content */
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <p> tag is one in one line
+      but span is two in one line -->
+  <p>basic bloc element p</p>
+  <p>basic bloc element p</p>
+
+  <span>but </span>
+  <span class="inlineBlock"> span is not </span>
+</body>
+
+</html>
