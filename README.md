@@ -16,7 +16,17 @@ Useful site
 Day 4 - 2023. 07. 24 >> build body HTML
     4-1)) body header
 
-    4-2)) body 
+    4-2)) body home
+
+    4-3)) body about
+
+    4-4)) body skills
+
+    4-5)) body works
+
+    4-6)) body testimonial
+
+    4-7)) Footer
 
 Useful site
 1. [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a]
