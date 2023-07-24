@@ -23,6 +23,11 @@ Day 4 - 2023. 07. 24 >> build body HTML
     4-4)) body skills
 
     4-5)) body works
+    *short key [https://jhnyang.tistory.com/408]
+        1. ctrl+shift+L+click >> select many and type many all at once
+        2. ctrl+d >> select some edit
+        3. art+click >> what I want select edit
+        4. etc ...
 
     4-6)) body testimonial
 
