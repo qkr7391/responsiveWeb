@@ -35,3 +35,23 @@ Day 4 - 2023. 07. 24 >> build body HTML
 
 Useful site
 1. [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a]
+
+
+
+Day 5 - 2023. 07. 27 >> CSS
+
+>> naming
+ BEM [Block, Element, Modifier]
+
+ ex) 
+ .card
+ .card_img_dark
+ .card_title
+ .card_desc
+ .card_btn_blue
+ ... etc
+
+
+header
+sticky : outside home
+fix : inside home
