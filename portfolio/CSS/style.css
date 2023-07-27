@@ -39,7 +39,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--collor-text);
+    color: var(--collor-white);
 }
 
 button {
@@ -77,6 +77,7 @@ button:focus {
 
 .header_logo_title {
     font-size: 1.8rem;
+    color: var(--color-text);
 }
 
 .header_menu {
@@ -86,6 +87,7 @@ button:focus {
 
 .header_menu_item {
     padding: 8px 16px;
+    color: var(--color-text);
 }
 
 .header_menu_item:hover {
@@ -95,4 +97,49 @@ button:focus {
 .header_menu_item.active {
     border: 1px solid var(--color-accent);
     border-radius: 4px;
+}
+/* Home */
+#home {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.home_avatar {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid var(--color-accent);
+}
+
+.home_title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home_title-strong {
+    color: var(--color-accent);
+}
+
+.home_desc {
+    font-size: 1.3rem;
+}
+
+.home_contact {
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.home_contact:hover {
+    background-color: transparent;
+    color: var(--color-text);
+    outline: 2px solid var(--color-accent);
 }
