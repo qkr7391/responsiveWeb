@@ -55,3 +55,9 @@ Day 5 - 2023. 07. 27 >> CSS
 header
 sticky : outside home
 fix : inside home
+
+
+Useful site
+1. [https://cssgenerator.org/box-shadow-css-generator.html]
+
+2. [https://manuarora.in/boxshadows]
