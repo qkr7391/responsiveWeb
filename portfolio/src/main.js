@@ -1,3 +1,4 @@
+'use strict';
 
  // Different styling if scrolling Y coordinate is greater than headerHeight
 const header = document.querySelector('.header');
