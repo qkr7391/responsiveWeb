@@ -21,8 +21,21 @@ document.addEventListener('scroll', ()=>{
 
 
 // As you scroll down in the Home section, arrow will show on the site.
-
 const arrow = document.querySelector('.arrow_up');
 document.addEventListener('scroll', ()=>{
     arrow.style.opacity = window.scrollY / homeHeight;
+});
+
+
+//when toggle button clicked, menuBar will show again
+const menuBar = document.querySelector('.header_menu');
+const menuToggle = document.querySelector('.header_toggle');
+menuToggle.addEventListener('click', () => {
+    menuBar.classList.toggle('open');
+});
+
+
+//when click the menu inside the toggle button, move page and hidden menu bar
+menuBar.addEventListener('click', () => {
+    menuBar.classList.remove('open');
 });

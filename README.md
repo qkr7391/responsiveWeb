@@ -109,3 +109,11 @@ const headerHeight = header.getBoundingClientRect().height;
     }
 
     + css ) transition
+
+
+
+    4. When the web page narrows, the menu at the top header changes to a toggle bar, clicks the toggle bar to display lists, and clicks the list to close the toggle bar.
+
+    a. insert toggle key icon code to HTML
+    b. Edit CSS [media query too]
+    c. 
