@@ -17,4 +17,12 @@ const home = document.querySelector('.home_container');
 const homeHeight = home.offsetHeight;
 document.addEventListener('scroll', ()=>{
     home.style.opacity = 1 - window.scrollY / homeHeight;
-})
+});
+
+
+// As you scroll down in the Home section, arrow will show on the site.
+
+const arrow = document.querySelector('.arrow_up');
+document.addEventListener('scroll', ()=>{
+    arrow.style.opacity = window.scrollY / homeHeight;
+});

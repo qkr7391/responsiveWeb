@@ -85,7 +85,27 @@ const headerHeight = header.getBoundingClientRect().height;
  const headerRect = header.getBoundingClientRect();
  const headerHeight = headerRect.height;
 
+>> Make another style setting in css
+
 
  2. As you scroll down in the Home section, it becomes more and more transparent.
 
- 
+>> using inline style [opacity]
+
+
+
+
+ 3. As you scroll down in the Home section, arrow will show on the site.
+
+    arrow.style.opacity = window.scrollY / homeHeight;
+
+    or
+
+    if(window.scrollY > homeHeight / 2){
+        arrow.style.opacity = 1;
+    }
+    else {
+        arrow.style.opacity = 0;
+    }
+
+    + css ) transition
