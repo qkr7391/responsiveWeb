@@ -84,3 +84,8 @@ const headerHeight = header.getBoundingClientRect().height;
 
  const headerRect = header.getBoundingClientRect();
  const headerHeight = headerRect.height;
+
+
+ 2. As you scroll down in the Home section, it becomes more and more transparent.
+
+ 
