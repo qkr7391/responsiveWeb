@@ -138,3 +138,8 @@ const headerHeight = header.getBoundingClientRect().height;
 
 5.2 give animation effect for project showing
 
+
+
+
+6. refactoring project call back function.
+
