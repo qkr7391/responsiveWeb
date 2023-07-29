@@ -136,4 +136,5 @@ const headerHeight = header.getBoundingClientRect().height;
         - otherwise display none.
 
 
-5.2
+5.2 give animation effect for project showing
+
