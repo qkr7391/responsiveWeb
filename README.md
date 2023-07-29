@@ -61,3 +61,26 @@ Useful site
 1. [https://cssgenerator.org/box-shadow-css-generator.html]
 
 2. [https://manuarora.in/boxshadows]
+
+
+
+Day 6 - 2023. 07. 28 >> JavaScript
+
+1. Create a function where the header line has a transparent background until the web page is scrolled, and then changes the background color when scrolling.
+
+document.querySelector('.header');
+>> calling the desired element in the browser
+
+document. >> An object that holds information about the entire document
+querySelector >> function
+('.header') >> selector [. # ]
+
+//window.document.querySelector();
+window >> global object
+
+
+const headerHeight = header.getBoundingClientRect().height;
+ ===
+
+ const headerRect = header.getBoundingClientRect();
+ const headerHeight = headerRect.height;
