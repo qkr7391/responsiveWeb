@@ -112,8 +112,28 @@ const headerHeight = header.getBoundingClientRect().height;
 
 
 
-    4. When the web page narrows, the menu at the top header changes to a toggle bar, clicks the toggle bar to display lists, and clicks the list to close the toggle bar.
+4. When the web page narrows, the menu at the top header changes to a toggle bar, clicks the toggle bar to display lists, and clicks the list to close the toggle bar.
 
     a. insert toggle key icon code to HTML
     b. Edit CSS [media query too]
-    c. 
+    c. insert function for 'click' / open
+
+
+5. Projects filtering
+[When you clikc each project, only show related projects]
+
+5-1.
+ a. give data-filter for each buttons ['all', 'front', 'back', 'mobile']
+ b. give data-type for each list in projects
+    [ex) data-type="front"]
+ c. design function in projects.js
+    1) call categories
+    2) call project
+    3) create event to categories when click
+    4) get and save the value of dataset.filter ['all', 'front', 'back', 'mobile']
+    5) set condtion for each projects
+        - when filtering value is one of ['all', 'front', 'back', 'mobile'] display
+        - otherwise display none.
+
+
+5.2
