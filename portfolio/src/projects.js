@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 // Project filtering Logic
 const categories = document.querySelector('.categories');

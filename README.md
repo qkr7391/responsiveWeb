@@ -139,7 +139,117 @@ const headerHeight = header.getBoundingClientRect().height;
 5.2 give animation effect for project showing
 
 
-
-
 6. refactoring project call back function.
 
+
+
+Day 7 - 2023. 08. 01 - 08. 02 >> Intersection Observer API
+
+[https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API]
+
+
+: The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.
+
+
+>> const observer = new IntersectionObserver(callback, options)
+
+1. 
+  //create observer
+    const observer = new IntersectionObserver(callback);
+    //select element what I want to observe
+    const boxes = document.querySelectorAll('.box');
+    //send for each element in the box array to observer using observe function
+    boxes.forEach((box) => observer.observe(box))
+    //callback function
+    function callback(entries) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+        else {
+          entry.target.classList.remove('active');
+        }
+
+        // console.log(entry);
+        // console.log(entry.target);
+        // console.log(entry.isIntersecting);
+        // console.log(entry.isIntersecting);
+
+      });
+    }
+
+2.  [threshold]
+    const options = {
+      threshhold: [0, 0.25, 0.5],
+    };
+    //create observer
+    const observer = new IntersectionObserver(callback, options);
+    //select element what I want to observe
+    const boxes = document.querySelectorAll('.box');
+    //send for each element in the box array to observer using observe function
+    boxes.forEach((box) => observer.observe(box))
+    //callback function
+    function callback(entries) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+        else {
+          entry.target.classList.remove('active');
+        }
+
+        // console.log(entry);
+        // console.log(entry.target);
+        // console.log(entry.isIntersecting);
+        // console.log(entry.isIntersecting);
+
+      });
+    }
+
+3. [rootMargin]
+ const options = {
+      rootMargin: '200px', 
+      threshhold: [0, 0.25, 0.5],
+    };
+    //create observer
+    const observer = new IntersectionObserver(callback, options);
+    //select element what I want to observe
+    const boxes = document.querySelectorAll('.box');
+    //send for each element in the box array to observer using observe function
+    boxes.forEach((box) => observer.observe(box))
+    //callback function
+    function callback(entries) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+        else {
+          entry.target.classList.remove('active');
+        }
+
+        // console.log(entry);
+        // console.log(entry.target);
+        // console.log(entry.isIntersecting);
+        // console.log(entry.isIntersecting);
+
+      });
+    }
+
+
+    *****************************
+    Using intersection Observer
+
+    //General plan
+    1. Get all section elements and menu items.
+    2. All sections must be observed using an intersectionObserver.
+    3. Activates the menu item corresponding to the displayed section.
++)) Visible section: If multiple sections are displayed at the same time, select the top section
+However, when all the last footers are shown, select a footer
+
+
+
+const sectionIds = ['#home', '#about', '#skills', '#mywork', '#testimonial', '#contact'];
+
+>> const homeSection = document.querySelector('#home');
+>> const homeMenu = document.querySelector('[href="#homr"]')
+... etc 
