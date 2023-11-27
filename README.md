@@ -1,4 +1,14 @@
 # responsiveWeb
+------------------------
+Using HTML5, JavaScript, and CSS make a simple responsive Webpage
+
+Youtube: https://youtu.be/cswViPL4xOE
+
+![responsiveWeb](https://github.com/qkr7391/responsiveWeb/assets/63420534/7ebbcd0a-c466-469d-88ab-4e18e8eff7c2)
+
+
+
+
 project-responsive Website
 
 Day 1 - 2023.07.12 >> install extension / setting for annotation / connect to Git / HTML
